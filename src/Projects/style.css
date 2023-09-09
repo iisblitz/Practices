@@ -1,0 +1,52 @@
+.row {
+  display: flex;
+  flex-direction: horizontal;
+}
+.cellNE {
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10%;
+}
+.cellN {
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  padding: 10%;
+}
+.cellNW {
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10%;
+}
+.cellE {
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  padding: 10%;
+}
+.cellC {
+  border: 1px solid;
+  padding: 10%;
+}
+.cellW {
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  padding: 10%;
+}
+.cellSE {
+  border-right: 1px solid;
+  border-top: 1px solid;
+  padding: 10%;
+}
+.cellS {
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  padding: 10%;
+}
+.cellSW {
+  border-left: 1px solid;
+  border-top: 1px solid;
+  padding: 10%;
+}
